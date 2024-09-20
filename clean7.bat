@@ -1,187 +1,6 @@
-@echo of
-title Clean
+@echo off
+title clean7
 
-taskkill /f /im ""EpicGamesLauncher.exe"" /t /fi ""status eq running"">nul
-taskkill /f /im ""FortniteLauncher.exe"" /t /fi ""status eq running"">nul
-taskkill /f /im ""FortniteClient-Win64-Shipping_BE.exe"" /t /fi ""status eq running"">nul
-taskkill /f /im ""FortniteClient-Win64-Shipping.exe"" /t /fi ""status eq running"">nul
-taskkill /f /im ""EasyAntiCheat.exe"" /t /fi ""status eq running"">nul
-taskkill /f /im smartscreen.exe
-taskkill /f /im EasyAntiCheat.exe
-taskkill /f /im dnf.exe
-taskkill /f /im DNF.exe
-taskkill /f /im CrossProxy.exe
-taskkill /f /im tensafe_1.exe
-taskkill /f /im TenSafe_1.exe
-taskkill /f /im tensafe_2.exe
-taskkill /f /im tencentdl.exe
-taskkill /f /im TenioDL.exe
-taskkill /f /im uishell.exe
-taskkill /f /im BackgroundDownloader.exe
-taskkill /f /im conime.exe
-taskkill /f /im QQDL.EXE
-taskkill /f /im qqlogin.exe
-taskkill /f /im dnfchina.exe
-taskkill /f /im dnfchinatest.exe
-taskkill /f /im dnf.exe
-taskkill /f /im txplatform.exe
-taskkill /f /im TXPlatform.exe
-taskkill /f /im OriginWebHelperService.exe
-taskkill /f /im Origin.exe
-taskkill /f /im OriginClientService.exe
-taskkill /f /im OriginER.exe
-taskkill /f /im OriginThinSetupInternal.exe
-taskkill /f /im OriginLegacyCLI.exe
-taskkill /f /im Agent.exe
-taskkill /f /im Client.exe
-taskkill /f /im smartscreen.exe
-taskkill /f /im EasyAntiCheat.exe
-taskkill /f /im dnf.exe
-taskkill /f /im DNF.exe
-taskkill /f /im CrossProxy.exe
-taskkill /f /im tensafe_1.exe
-taskkill /f /im TenSafe_1.exe
-taskkill /f /im tensafe_2.exe
-taskkill /f /im tencentdl.exe
-taskkill /f /im TenioDL.exe
-taskkill /f /im uishell.exe
-taskkill /f /im BackgroundDownloader.exe
-taskkill /f /im conime.exe
-taskkill /f /im QQDL.EXE
-taskkill /f /im qqlogin.exe
-taskkill /f /im dnfchina.exe
-taskkill /f /im dnfchinatest.exe
-taskkill /f /im dnf.exe
-taskkill /f /im txplatform.exe
-taskkill /f /im TXPlatform.exe
-taskkill /f /im OriginWebHelperService.exe
-taskkill /f /im Origin.exe
-taskkill /f /im OriginClientService.exe
-taskkill /f /im OriginER.exe
-taskkill /f /im OriginThinSetupInternal.exe
-taskkill /f /im OriginLegacyCLI.exe
-taskkill /f /im Agent.exe
-taskkill /f /im Client.exe
-taskkill /f /im ""EpicGamesLauncher.exe"" /t /fi ""status eq running"">nul
-taskkill /f /im ""FortniteLauncher.exe"" /t /fi ""status eq running"">nul
-taskkill /f /im ""FortniteClient-Win64-Shipping_BE.exe"" /t /fi ""status eq running"">nul
-taskkill /f /im ""FortniteClient-Win64-Shipping.exe"" /t /fi ""status eq running"">nul
-taskkill /f /im ""EasyAntiCheat.exe"" /t /fi ""status eq running"">nul
-taskkill /f /im epicgameslauncher.exe >nul
-taskkill /f /im FortniteClient-Win64-Shipping_EAC.exe >nul
-taskkill /f /im FortniteClient-Win64-Shipping_BE.exe >nul
-taskkill /f /im FortniteLauncher.exe >nul
-taskkill /f /im OneDrive.exe >nul
-taskkill /f /im FortniteClient-Win64-Shipping.exe >nul
-taskkill /f /im EpicGamesLauncher.exe >nul
-taskkill /f /im UnrealCEFSubProcess.exe >nul
-taskkill /f /im CEFProcess.exe >nul
-taskkill /f /im EasyAntiCheat.exe >nul
-taskkill /f /im BEService.exe >nul
-taskkill /f /im BEServices.exe >nul
-taskkill /f /im BattleEye.exe >nul
-taskkill /f /im PerfWatson2.exe >nul
-taskkill /f /im vgtray.exe >nul
-Sc stop EasyAntiCheat
-Sc stop FortniteClient-Win64-Shipping_EAC
-Sc stop BattleEye
-Sc stop FortniteClient-Win64-Shipping_BE
-del /f /s /q ""x:\%localappdata%\Origin""
-del /f /s /q ""x:\%appdata%\Origin""
-del /f /s /q ""x:\%homepath%\.Origin""
-del /f /s /q ""x:\%homepath%\.QtWebEngineProcess""
-del /f /s /q ""x:\%programdata%\Electronic Arts""
-del /f /s /q ""x:\%programfiles%\Common Files\EAInstaller""
-del /f /s /q ""x:\%programdata%\Microsoft\Windows\Start Menu\Programs\Origin""
-del /f /s /q ""x:\%systemdrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Apex Legends""
-del /f /s /q ""x:\%systemdrive%\Windows\ServiceProfiles\LocalService\AppData\Local\Origin""
-del /f /s /q ""x:\%systemdrive%\Windows\ServiceProfiles\LocalService\AppData\Roaming\Origin""
-del /f /s /q ""x:\%localappdata%\NVIDIA\NvBackend\ApplicationOntology\data\wrappers\apex_legends""
-del /f /s /q ""x:\%appdata%\EasyAntiCheat""
-del /f /s /q ""x:\%localappdata%\Temp""
-del /f /s /q ""x:\%localappdata%\ConnectedDevicesPlatform""
-del /f /s /q ""%systemdrive%\MSOCache\{71230000-00E2-0000-1000-00000000}\Setup.dat\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Feeds\*.*""
-del /f /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\NetworksCache\*.*""
-del /f /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\Rules\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\History\History.IE5\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Speech Graphics\Carnival\*.*""
-del /f /s /q ""%systemdrive%\ProgramData\Microsoft\Windows\WER\Temp\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\Content.IE5\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCookies\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\*.*""
-del /s /f /q ""%systemdrive%\Windows\Prefetch\*.*""
-del /f /s /q ""%systemdrive%\Intel\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Windows\Themes\CachedFiles\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.jfm\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\INetCache\IE\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\Prefetch\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Microsoft\Windows\DeviceMetadataCache\dmrc.idx\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Microsoft\Windows\DeviceMetadataCache\dmrc.idx\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Internet Explorer\CacheStorage\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\AMD\DxCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Program Files (x86)\AMD\CNext\CCCSlim\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\PlaceholderTileLogoFolder\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Windows\Themes\CachedFiles\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\ServiceProfiles\LocalService\AppData\Local\FontCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Windows\CloudStore\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\Prefetch\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Microsoft\Diagnosis\EventStore.db-wal\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\perfc009.dat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\perfh009.dat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\INF\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\PerfStringBackup.TMP\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\PerfStringBackup.INI\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\ntuser.dat.LOG2\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\wbem\Performance\WmiApRpl.ini\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\TEMP\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SoftwareDistribution\DataStore\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\WDI\LogFiles\StartupInfo\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\State\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\Gms.log\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\USOShared\Logs\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\SettingSync\remotemetastore\v1\edb.log\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\SettingSync\metastore\edb.log\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\Logs\CBS\CBS.log\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Comms\Unistore\data\3\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Comms\Unistore\data\temp\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Packages\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\AppData\User\Default\Indexed DB\edb.log\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\SettingSync\metastore\meta.edb\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\b05132b02959bc64.automaticDestinations-ms\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\appcompat\Programs\Amcache.hve\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\EasyAntiCheat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\LogFiles\WMI\RtBackup\EtwRTGraphicsPerfMonitorSession.etl\*.*""
-rmdir /s /q ""%systemdrive%\ProgramData\Microsoft\Windows\WER\Temp""
-del /f /s /q ""%systemdrive%\Windows\temp\*.*""
-rmdir /s /q ""%systemdrive%\Windows\temp\*""
-rmdir /s /q ""%systemdrive%\Windows\Logs""
-rmdir /s /q ""%systemdrive%\Windows\SoftwareDistribution\DataStore\Logs""
-rmdir /s /q ""%systemdrive%\Users\Public\Libraries\collection.dat""
-rmdir /s /q ""%systemdrive%\MSOCache\{71230000-00E2-0000-1000-00000000}\Setup.dat""
-rmdir /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\WebCache""
-rmdir /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Feeds""
-rmdir /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\NetworksCache""
-rmdir /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\Rules""
-rmdir /s /q ""%systemdrive%\Users\%username%\AppData\Local\Speech Graphics\Carnival""
-rmdir /s /q ""%systemdrive%\ProgramData\Microsoft\Windows\WER\Temp""
-rmdir /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\Content.IE5""
-rmdir /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCookies""
-rmdir /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData""
-rmdir /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content""
-rmdir /s /q ""%systemdrive%\Windows\Public\Libraries""
-rmdir /s /q ""%systemdrive%\Windows\Prefetch""
-rmdir /s /q ""%systemdrive%\Intel""
-rmdir /s /q ""%systemdrive%\desktop.ini""
 del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent\Autom\*.*""
 del /s /f /a:h /a:a /q ""%systemdrive%\Windows\rescache\_merged\*.*""
 del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\ntuser.dat.LOG1\*.*""
@@ -682,429 +501,372 @@ REG DELETE ""HKU\S-1-5-18\Software\Policies\Microsoft\SystemCertificates\Trusted
 REG DELETE ""HKU\S-1-5-18\Software\Policies\Microsoft\SystemCertificates\TrustedPublisher\CRLs"" /f
 REG DELETE ""HKU\S-1-5-18\Software\Policies\Microsoft\SystemCertificates\TrustedPublisher\CTLs"" /f  
 REG DELETE ""HKEY_CURRENT_USER\Software\Classes\Installer\Dependencies"" /v MSICache /f
-rmdir /s /q ""%systemdrive%\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\cache""
-del /f /s /q ""%systemdrive%\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\cache""
-rmdir /s /q ""%systemdrive%\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\logs""
-del /f /s /q ""%systemdrive%\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\logs""
-rmdir /s /q ""%systemdrive%\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\savegames""
-del /f /s /q ""%systemdrive%\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\savegames""
-rmdir /s /q ""%systemdrive%\Users\%USERNAME%\AppData\Local\Ubisoft Game Launcher\spool""
-rmdir /s /q ""%systemdrive%\Users\%USERNAME%\AppData\Local\Temp""
-del /f /s /q ""%systemdrive%\Windows\Prefetch""
-del /f /s /q ""%systemdrive%\Windows\Temp""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Origin\Telemetry\*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Origin\Telemetry\*.*""
-rmdir /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Origin\Telemetry\""
-rmdir /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Origin""
-del /f /s /q ""%systemdrive%\ProgramData\Electronic Arts\EA Services\License\*.*""
-rmdir /s /q ""%systemdrive%\ProgramData\Electronic Arts""
-del /f /s /q ""%systemdrive%\Program Files (x86)\EasyAntiCheat\EasyAntiCheat.sys""
-del /f /s /q ""%systemdrive%\Program Files (x86)\Origin\*.log""
-del /f /s /q ""%systemdrive%\Program Files (x86)\Origin\EAProxyInstaller.exe""
-del /f /s /q ""%systemdrive%\Program Files (x86)\Origin\igoproxy.exe""
-del /f /s /q ""%systemdrive%\Program Files (x86)\Origin\igoproxy64.exe""
-del /f /s /q ""%systemdrive%\Program Files (x86)\Origin\OriginCrashReporter.exe""
-del /f /s /q ""%systemdrive%\Program Files (x86)\Origin\OriginER.exe""
-del /f /s /q ""%systemdrive%\Program Files (x86)\Origin\OriginWebHelper.exe
-del /f /s /q ""%systemdrive%\Windows\System32\eac_usermode_*.dll""
-del /f /s /q ""%username%\AppData\LocalLow\DNF\*.trc""
-del /f /s /q ""%username%\AppData\LocalLow\DNF\*.zip""
-rmdir /s /q ""%username%\AppData\Local\g3""
-del /f /s /q ""%username%\AppData\Local\g3\*.*""
-del /f /s /q ""%username%\AppData\Local\g3\Saved\SaveGames\SaveSettings.sav""
-del /f /s /q ""%username%\AppData\Local\g3\Saved\SaveGames\*.*""
-rmdir /s /a:h /a:a /q ""%username%\AppData\Local\g3\""
-del /s /f /a:h /a:a /q ""%username%\AppData\Local\g3\*.*""
-del /s /f /a:h /a:a /q ""%username%\AppData\Local\g3\Saved\SaveGames\SaveSettings.sav""
-del /s /f /a:h /a:a /q ""%username%\AppData\Local\g3\Saved\SaveGames\*.*""
-rmdir /s /q ""%appdata%\Roaming\EasyAntiCheat""
-del /f /s /q ""%appdata%\Roaming\EasyAntiCheat\*.*""
-rmdir /s /a:h /a:a /q ""%appdata%\Roaming\EasyAntiCheat""
-del /s /f /a:h /a:a /q ""%appdata%\Roaming\EasyAntiCheat\*.*""
-rmdir /s /q ""%systemdrive%\Program Files\Common Files\EAInstaller\""
-rmdir /s /a:h /a:a /q ""%systemdrive%\Program Files\Common Files\EAInstaller\""
-rmdir /s /q ""%systemdrive%\Program Files (x86)\EasyAntiCheat\""
-rmdir /s /a:h /a:a /q ""%systemdrive%\Program Files (x86)\EasyAntiCheat\""
-del /f /s /q ""%systemdrive%\Program Files (x86)\EasyAntiCheat\*.*""
-del /f /s /q ""%systemdrive%\Temp\*.*
-del /s /f /a:h /a:a /q ""%systemdrive%\Temp\*.*
-rmdir /s /a:h /a:a /q ""%systemdrive%\Users\%username%\.QtWebEngineProcess""
-rmdir /s /a:h /a:a /q ""%systemdrive%\Users\%username%\.Origin""
-rmdir /s /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Origin""
-rmdir /s /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Origin""
-rmdir /s /q ""%systemdrive%\Users\%username%\.QtWebEngineProcess""
-rmdir /s /q ""%systemdrive%\Users\%username%\Saved Games\Respawn\Apex\assets""
-rmdir /s /a:h /a:a /q ""%systemdrive%\Users\%username%\Saved Games\Respawn\Apex\assets""
-rmdir /s /q ""%systemdrive%\Users\%username%\Saved Games\Respawn\Apex\profile\*.*""
-rmdir /s /a:h /a:a /q ""%systemdrive%\Users\%username%\Saved Games\Respawn\Apex\profile\*.*""
-del /s /f /q ""%systemdrive%\Users\%username%\AppData\Local\Temp\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Temp\*.*""
-rmdir /s /q ""%systemdrive%\Users\%username%\AppData\Local\Temp\*""
-rmdir /s /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Temp\*""
-rd /s /q %systemdrive%\Users\%username%\AppData\Local\Temp & md  %systemdrive%\Users\%username%\AppData\Local\Temp
-rmdir /s /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Origin\Telemetry\""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Origin\Telemetry\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Origin\Telemetry\*.*""
-rmdir /s /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Origin\""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Electronic Arts\EA Services\License\*""
-rmdir /s /a:h /a:a /q ""%systemdrive%\ProgramData\Electronic Arts\""
-del /s /f /a:h /a:a /q ""%systemdrive%\Program Files (x86)\Origin\*.log""
-del /s /f /a:h /a:a /q ""%systemdrive%\Program Files (x86)\Origin\EAProxyInstaller.exe""
-del /s /f /a:h /a:a /q ""%systemdrive%\Program Files (x86)\Origin\igoproxy.exe""
-del /s /f /a:h /a:a /q ""%systemdrive%\Program Files (x86)\Origin\igoproxy64.exe""
-del /s /f /a:h /a:a /q ""%systemdrive%\Program Files (x86)\Origin\OriginCrashReporter.exe""
-del /s /f /a:h /a:a /q ""%systemdrive%\Program Files (x86)\Origin\OriginER.exe""
-del /s /f /a:h /a:a /q ""%systemdrive%\Program Files (x86)\EasyAntiCheat\EasyAntiCheat.sys""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Electronic Arts\EA Services\License\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Electronic Arts\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\EasyAntiCheat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Program Files (x86)\Origin\OriginWebHelper.exe
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\eac_usermode_*.dll""
-del /s /f /a:h /a:a /q ""%username%\AppData\LocalLow\DNF\*.trc""
-del /s /f /a:h /a:a /q ""%username%\AppData\LocalLow\DNF\*.zip""
-rd /s /q %windir%\temp & md  %windir%\temp
-@RD /S /Q ""%localappdata%\UnrealEngine""
-@RD /S /Q ""%localappdata%\UnrealEngineLauncher""
-@RD /S /Q ""%localappdata%\Temp\ecache.bin""
-@RD /S /Q ""%localappdata%\Microsoft\Feeds""
-del ""C:\Users\Public\Shared Files""
-rmdir /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\NetworksCache\*.*""
-rmdir /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\Rules\*.*""
-rmdir /s /q ""%systemdrive%\Windows\Logs\WindowsUpdate\*.*""
-rmdir /s /q ""%systemdrive%\Windows\WindowsUpdate.log\*.*""
-rmdir /s /q ""%systemdrive%\Windows\SoftwareDistribution\DataStore\*.*""
-rmdir /s /q ""%systemdrive%\Windows\ServiceProfiles\LocalService\AppData\Local\FontCache\*.*""
-rmdir /s /q ""%systemdrive%\Users\caspue\AppData\Roaming\Microsoft\Windows\Recent\*.*""
-rmdir /s /q ""%systemdrive%\Users\caspue\AppData\Local\Microsoft\Windows\WebCache\*.*""
-rmdir /s /q ""%systemdrive%\Users\caspue\AppData\Local\Packages\*.*""
-rmdir /s /q ""%systemdrive%\Users\caspue\AppData\Local\Speech Graphics\Carnival\*.*""
-rmdir /s /q ""%systemdrive%\ProgramData\USOPrivate\UpdateStore\*.*""
-rmdir /s /q ""%systemdrive%\ProgramData\USOShared\Logs\*.*""
-RD /s /q ""C:\Users\%Username%\AppData\Local\CEF""
-RD /s /q ""C:\Users\%Username%\AppData\Local\Comms""
-RD /s /q ""C:\Users\%Username%\AppData\Local\ConnectedDevicesPlatform""
-RD /s /q ""C:\Users\%Username%\AppData\Local\CrashDumps""
-RD /s /q ""C:\Users\%Username%\AppData\Local\CrashReportClient""
-RD /s /q ""C:\Users\%Username%\AppData\Local\D3DSCache""
-RD /s /q ""C:\Users\%Username%\AppData\Local\DBG""
-RD /s /q ""C:\Users\%Username%\AppData\Local\Microsoft\Feeds""
-RD /s /q ""C:\Users\%Username%\AppData\Local\VirtualStore""
-del /s /q ""C:\Users\%Username%\AppData\Local\VirtualStore"" do rmdir ""%%p""
-RD /s /q ""C:\Users\%Username%\AppData\Local\UnrealEngineLauncher""
-RD /s /q ""C:\Users\%Username%\AppData\Local\UnrealEngine""
-RD /s /q ""C:\Users\%Username%\AppData\Local\Speech Graphics""
-RD /s /q ""C:\Users\%Username%\AppData\Local\Publishers""
-RD /s /q ""C:\Users\%Username%\AppData\Local\Programs\Common""
-RD /s /q ""C:\Users\%Username%\AppData\Local\PlaceholderTileLogoFolder""
-RD /s /q ""C:\Users\%Username%\AppData\Roaming\EasyAntiCheat""
-del /f /s /q ""C:\Users\Public\Libraries\*.*""
-rmdir /s /q ""C:\Users\Public\Libraries""
-del /f /s /q ""C:\Users\%username%\AppData\Local\Microsoft\Feeds\*.*""
-rmdir /s /q ""C:\Users\%username%\AppData\Local\Microsoft\Feeds""
-del /f /s /q ""C:\MSOCache\*.*""
-rmdir /s /q ""C:\MSOCache""
-del /f /s /q ""C:\Intel\*.*""
-rmdir /s /q ""C:\Intel""
-del /f /s /q ""C:\Recovery\*.*""
-rmdir /s /q ""C:\Recovery""
-del /q /s ""D:\desktop.ini""
-del /q /s ""C:\Users\%username%\AppData\Local\Microsoft\Feeds""
-del /a /q /s ""C:\Users\%Username%\AppData\Local\updater.log""
-del ""%localappdata%\Microsoft\Feeds"" /s /f /q
-@RD /S /Q ""%C:\MSOCache\{71230000-00E2-0000-1000-00000000}""
-del /s /f /q %userprofile%\Recent\*.*
-del /s /f /q C:\Windows\Prefetch\*.*
-del /s /f /q C:\Windows\Temp\*.*
-del /s /f /q C:\Windows\Public\Libraries\*.*
-del /s /f /q %windir%\temp\*.*
-del /s /f /q %windir%\Prefetch\*.*
-rd /s /q %windir%\Prefetch
-rmdir /s /q ""%systemdrive%\Windows\System32\wbem\Repository\MAPPING3.MAP\*.*""
-del %windir%\KB*.log /f /q
-del /f /s /q %systemdrive%\*.log
-del /f /s /q %systemdrive%\*.tmp
-del /f /s /q %systemdrive%\*.chk
-del /f /s /q %systemdrive%\*.dlf
-del /f /s /q %systemdrive%\*.old
-del /f /s /q %windir%\*.bak
-del /f /s /q %windir%\prefetch\*.*
-del /f /s /q %systemdrive%\recycled\*.*
-del /f /s /q %windir%\*.bak
-del /f /s /q ""%Temp%""
-rd /s /q %windir%\temp md %windir%\temp
-del /f /s /q ""%systemdrive%\ProgramData\Origin\AchievementCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\CatalogCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\CustomBoxartCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\EntitlementCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\IGOCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\Logs\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\NonOriginContentCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\Subscription\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\Telemetry\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\*""
-del /f /s /q ""%systemdrive%\ProgramData\Electronic Arts\EA Services\License\*""
-del /f /s /q ""%systemdrive%\ProgramData\Electronic Arts\*""
-del /s /f /a:h /a:a /q  ""%systemdrive%\ProgramData\Origin\AchievementCache\*""
-del /s /f /a:h /a:a /q  ""%systemdrive%\ProgramData\Origin\CatalogCache\*""
-del /s /f /a:h /a:a /q  ""%systemdrive%\ProgramData\Origin\CustomBoxartCache\*""
-del /s /f /a:h /a:a /q  ""%systemdrive%\ProgramData\Origin\EntitlementCache\*""
-del /s /f /a:h /a:a /q  ""%systemdrive%\ProgramData\Origin\IGOCache\*""
-del /s /f /a:h /a:a /q  ""%systemdrive%\ProgramData\Origin\Logs\*""
-del /s /f /a:h /a:a /q  ""%systemdrive%\ProgramData\Origin\NonOriginContentCache\*""
-del /s /f /a:h /a:a /q  ""%systemdrive%\ProgramData\Origin\Subscription\*""
-del /s /f /a:h /a:a /q  ""%systemdrive%\ProgramData\Origin\Telemetry\*""
-del /s /f /a:h /a:a /q  ""%systemdrive%\ProgramData\Origin\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Electronic Arts\EA Services\License\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Electronic Arts\*""
-del /f /s /q ""x:\$RECYCLE.BIN""
-del /f /s /q ""x:\PerfLogs""
-del /f /s /q ""x:\MSOCache""
-del /f /s /q ""x:\Recovery\ntuser.sys""
-del /f /s /q ""x:\System Volume Information""
-del /f /s /q ""yourUSB\System Volume Information""
-del /f /s /q ""x:\Users\Public\Libraries\collection.dat""
-del /f /s /q ""x:\Users\Default\NTUSER.DAT""
-del /f /s /q ""x:\Users\yourname\ntuser.ini""
-del /f /s /q ""x:\Users\Public\Shared Files""
-del /f /s /q ""x:\Users\Public\Libraries""
-del /f /s /q ""x:\ProgramData\ntuser.pol""
-del /f /s /q ""x:\localappdata\Microsoft\INetCache""
-del /f /s /q ""x:\%programdata%\Origin -> delete everything expect ""LocalContent"" folder
-del /f /s /q ""x:\%localappdata%\Origin""
-del /f /s /q ""x:\%appdata%\Origin""
-del /f /s /q ""x:\%homepath%\.Origin""
-del /f /s /q ""x:\%homepath%\.QtWebEngineProcess""
-del /f /s /q ""x:\%programdata%\Electronic Arts""
-del /f /s /q ""x:\%programfiles%\Common Files\EAInstaller""
-del /s /f /a:h /a:a /q  ""x:\%programdata%\Origin""
-del /s /f /a:h /a:a /q  ""x:\%localappdata%\Origin""
-del /s /f /a:h /a:a /q  ""x:\%appdata%\Origin""
-del /s /f /a:h /a:a /q  ""x:\%homepath%\.Origin""
-del /s /f /a:h /a:a /q  ""x:\%homepath%\.QtWebEngineProcess""
-del /s /f /a:h /a:a /q  ""x:\%programdata%\Electronic Arts""
-del /s /f /a:h /a:a /q  ""x:\%programfiles%\Common Files\EAInstaller""
-del /s /f /a:h /a:a /q  ""%systemdrive%\ProgramData\Origin""
-del /f /s /q ""x:\%programdata%\Microsoft\Windows\Start Menu\Programs\Origin""
-del /f /s /q ""x:\%systemdrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Apex Legends""
-del /f /s /q ""x:\%systemdrive%\Windows\ServiceProfiles\LocalService\AppData\Local\Origin""
-del /f /s /q ""x:\%systemdrive%\Windows\ServiceProfiles\LocalService\AppData\Roaming\Origin""
-del /f /s /q ""x:\%localappdata%\NVIDIA\NvBackend\ApplicationOntology\data\wrappers\apex_legends""
-del /f /s /q ""x:\%appdata%\EasyAntiCheat""
-del /f /s /q ""x:\%localappdata%\Temp""
-del /f /s /q ""x:\%localappdata%\ConnectedDevicesPlatform""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Crypto\RSA\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Crypto\Keys\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\SystemCertificates\My\Certificates\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\SystemCertificates\My\Keys\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\UnrealEngine\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\Public\Libraries\collection.dat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\MSOCache\{71230000-00E2-0000-1000-00000000}\Setup.dat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Feeds\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\NetworksCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\Rules\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\History\History.IE5\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Speech Graphics\Carnival\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Microsoft\Windows\WER\Temp\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\Content.IE5\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCookies\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\UnrealEngine\*.*""
-del /f /s /q ""%systemdrive%\Program Files (x86)\EasyAntiCheat\EasyAntiCheat.sys""
-del /f /s /q ""%systemdrive%\ProgramData\Electronic Arts\EA Services\License\*.*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Origin\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Roaming\Origin\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Roaming\EasyAntiCheat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\UnrealEngine\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Program Files (x86)\EasyAntiCheat\EasyAntiCheat.sys""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Electronic Arts\EA Services\License\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Origin\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Origin\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Origin\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\EasyAntiCheat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Electronic Arts\EA Services\License""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Origin""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Origin""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Origin""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\EasyAntiCheat""
-del /f /s /q ""%systemdrive%\Users\%username%\Saved Games\Respawn\Apex\local\previousgamestate.txt""
-del /f /s /q ""%systemdrive%\Users\Public\Libraries\collection.dat\*.*""
-del /f /s /q ""%systemdrive%\MSOCache\{71230000-00E2-0000-1000-00000000}\Setup.dat\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Feeds\*.*""
-del /f /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\NetworksCache\*.*""
-del /f /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\Rules\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\History\History.IE5\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Speech Graphics\Carnival\*.*""
-del /f /s /q ""%systemdrive%\ProgramData\Microsoft\Windows\WER\Temp\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\Content.IE5\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCookies\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Origin\*.*
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Origin\*.*
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Origin\*.*
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\*.*""
-del /s /f /q ""%systemdrive%\Windows\Public\Libraries\*.*""
-del /s /f /q ""%systemdrive%\Windows\Prefetch\*.*""
-del /f /s /q ""%systemdrive%\Intel\*.*""
-del /f /s /q ""%systemdrive%\desktop.ini\*.*""
-del /f /s /q ""%systemdrive%paint\Users\%username%\AppData\Roaming\vstelemetry\*.*""
-del /f /s /q ""%windir%\prefetch\*.*""
-del /f /q ""%userprofile%\recent\*.*""
-del /f /s /q ""%userprofile%\Local Settings\Temporary Internet Files\*.*""
-del /f /s /q ""%userprofile%\Local Settings\Temp\*.*""
-del /f /s /q ""%userprofile%\recent\*.*""
-del /f /s /q ""%Temp%""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\AchievementCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\CatalogCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\CustomBoxartCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\EntitlementCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\IGOCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\Logs\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\NonOriginContentCache\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\Subscription\*""
-del /f /s /q ""%systemdrive%\ProgramData\Origin\Telemetry\*""
-rd /s /q ""%systemdrive%\ProgramData\Origin""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Origin\AchievementCache\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Origin\CatalogCache\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Origin\CustomBoxartCache\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Origin\EntitlementCache\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Origin\IGOCache\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Origin\Logs\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Origin\NonOriginContentCache\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Origin\Subscription\*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Origin\Telemetry\*""
-rd /s /a:h /a:a /q ""%systemdrive%\ProgramData\Origin""
-rd /q /s %systemdrive%\$Recycle.Bin
-rd /q /s A:\$Recycle.Bin
-rd /q /s B:\$Recycle.Bin
-rd /q /s C:\$Recycle.Bin
-rd /q /s D:\$Recycle.Bin
-rd /q /s E:\$Recycle.Bin
-rd /q /s F:\$Recycle.Bin
-rd /q /s G:\$Recycle.Bin
-rd /q /s H:\$Recycle.Bin
-rd /q /s I:\$Recycle.Bin
-rd /q /s J:\$Recycle.Bin
-rd /q /s K:\$Recycle.Bin
-rd /q /s L:\$Recycle.Bin
-rd /q /s M:\$Recycle.Bin
-rd /q /s N:\$Recycle.Bin
-rd /q /s O:\$Recycle.Bin
-rd /q /s P:\$Recycle.Bin
-rd /q /s Q:\$Recycle.Bin
-rd /q /s R:\$Recycle.Bin
-rd /q /s S:\$Recycle.Bin
-rd /q /s T:\$Recycle.Bin
-rd /q /s U:\$Recycle.Bin
-rd /q /s V:\$Recycle.Bin
-rd /q /s W:\$Recycle.Bin
-rd /q /s X:\$Recycle.Bin
-rd /q /s Y:\$Recycle.Bin
-rd /q /s Z:\$Recycle.Bin
-del /f /s /q ""x:\$RECYCLE.BIN""
-del /f /s /q ""x:\PerfLogs""
-del /f /s /q ""x:\MSOCache""
-del /f /s /q ""x:\Users\Public\Shared Files""
-del /f /s /q ""x:\Users\Public\Libraries""
-del /f /s /q ""x:\localappdata\Microsoft\INetCache""
-del /f /s /q ""x:\%localappdata%\Origin""
-del /f /s /q ""x:\%appdata%\Origin""
-del /f /s /q ""x:\%homepath%\.Origin""
-del /f /s /q ""x:\%homepath%\.QtWebEngineProcess""
-del /f /s /q ""x:\%programdata%\Electronic Arts""
-del /f /s /q ""x:\%programfiles%\Common Files\EAInstaller""
-del /f /s /q ""x:\%programdata%\Microsoft\Windows\Start Menu\Programs\Origin""
-del /f /s /q ""x:\%systemdrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Apex Legends""
-del /f /s /q ""x:\%systemdrive%\Windows\ServiceProfiles\LocalService\AppData\Local\Origin""
-del /f /s /q ""x:\%systemdrive%\Windows\ServiceProfiles\LocalService\AppData\Roaming\Origin""
-del /f /s /q ""x:\%localappdata%\NVIDIA\NvBackend\ApplicationOntology\data\wrappers\apex_legends""
-del /f /s /q ""x:\%appdata%\EasyAntiCheat""
-del /f /s /q ""x:\%localappdata%\Temp""
-del /f /s /q ""x:\%localappdata%\ConnectedDevicesPlatform""
-del /f /s /q ""%systemdrive%\MSOCache\{71230000-00E2-0000-1000-00000000}\Setup.dat\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Feeds\*.*""
-del /f /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\NetworksCache\*.*""
-del /f /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\Rules\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\History\History.IE5\*.*""
-del /f /s /q ""%systemdrive%\Users\%username%\AppData\Local\Speech Graphics\Carnival\*.*""
-del /f /s /q ""%systemdrive%\ProgramData\Microsoft\Windows\WER\Temp\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\Content.IE5\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCookies\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\*.*""
-del /f /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\*.*""
-del /s /f /q ""%systemdrive%\Windows\Prefetch\*.*""
-del /f /s /q ""%systemdrive%\Intel\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Windows\Themes\CachedFiles\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.jfm\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\INetCache\IE\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\Prefetch\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Microsoft\Windows\DeviceMetadataCache\dmrc.idx\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Microsoft\Windows\DeviceMetadataCache\dmrc.idx\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Internet Explorer\CacheStorage\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\AMD\DxCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Program Files (x86)\AMD\CNext\CCCSlim\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\PlaceholderTileLogoFolder\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Windows\Themes\CachedFiles\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\ServiceProfiles\LocalService\AppData\Local\FontCache\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Windows\CloudStore\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\Prefetch\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\Microsoft\Diagnosis\EventStore.db-wal\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\perfc009.dat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\perfh009.dat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\INF\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\PerfStringBackup.TMP\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\PerfStringBackup.INI\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\ntuser.dat.LOG2\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\wbem\Performance\WmiApRpl.ini\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\TEMP\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SoftwareDistribution\DataStore\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\WDI\LogFiles\StartupInfo\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\State\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\SysWOW64\Gms.log\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\ProgramData\USOShared\Logs\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\SettingSync\remotemetastore\v1\edb.log\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\SettingSync\metastore\edb.log\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\Logs\CBS\CBS.log\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Comms\Unistore\data\3\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Comms\Unistore\data\temp\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Packages\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\AppData\User\Default\Indexed DB\edb.log\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\SettingSync\metastore\meta.edb\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\b05132b02959bc64.automaticDestinations-ms\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\appcompat\Programs\Amcache.hve\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Users\%username%\AppData\Roaming\EasyAntiCheat\*.*""
-del /s /f /a:h /a:a /q ""%systemdrive%\Windows\System32\LogFiles\WMI\RtBackup\EtwRTGraphicsPerfMonitorSession.etl\*.*""
-rmdir /s /q ""%systemdrive%\ProgramData\Microsoft\Windows\WER\Temp""
-del /f /s /q ""%systemdrive%\Windows\temp\*.*""
-rmdir /s /q ""%systemdrive%\Windows\temp\*""
-rmdir /s /q ""%systemdrive%\Windows\Logs""
-rmdir /s /q ""%systemdrive%\Windows\SoftwareDistribution\DataStore\Logs""
-rmdir /s /q ""%systemdrive%\Users\Public\Libraries\collection.dat""
-rmdir /s /q ""%systemdrive%\MSOCache\{71230000-00E2-0000-1000-00000000}\Setup.dat""
-rmdir /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Windows\WebCache""
-rmdir /s /q ""%systemdrive%\Users\%username%\AppData\Local\Microsoft\Feeds""
-rmdir /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\NetworksCache""
-rmdir /s /q ""%systemdrive%\ProgramData\Microsoft\DataMart\PaidWiFi\Rules""
-rmdir /s /q ""%systemdrive%\Users\%username%\AppData\Local\Speech Graphics\Carnival""
-rmdir /s /q ""%systemdrive%\ProgramData\Microsoft\Windows\WER\Temp""
-rmdir /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\Content.IE5""
-rmdir /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCookies""
-rmdir /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData""
-rmdir /s /q ""%systemdrive%\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content""
-rmdir /s /q ""%systemdrive%\Windows\Public\Libraries""
-rmdir /s /q ""%systemdrive%\Windows\Prefetch""
-rmdir /s /q ""%systemdrive%\Intel""
-rmdir /s /q ""%systemdrive%\desktop.ini""
+del /f ""C:\Windows\win.ini""
+del /f ""C:\Riot Games\VALORANT\live\Manifest_NonUFSFiles_Win64.txt""
+del /f ""C:\Riot Games\VALORANT\live\Engine\Binaries\ThirdParty\CEF3\Win64\icudtl.dat""
+del /f ""C:\Riot Games\Riot Client\UX\Plugins\plugin-manifest.json""
+del /f ""C:\Riot Games\Riot Client\UX\icudtl.dat""
+del /f ""C:\Riot Games\Riot Client\UX\natives_blob.bin""
+del /f ""C:\Users\%username%\AppData\Local\Microsoft\Vault\UserProfileRoaming\Latest.dat""
+del /f ""C:\Users\%username%\AppData\Local\AC\INetCookies\ESE\container.dat""
+del /f ""C:\Users\%username%\AppData\Local\UnrealEngine\4.23\Saved\Config\WindowsClient\Manifest.ini""
+del /f ""C:\Users\%username%\AppData\Local\Microsoft\OneDrive\logs\Common\DeviceHealthSummaryConfiguration.ini""
+del /f ""C:\ProgramData\Microsoft\Windows\DeviceMetadataCache\dmrc.idx""
+del /f ""C:\Users\%username%\ntuser.ini""
+del /f ""C:\Users\%username%\AppData\Local\Microsoft\Windows\INetCache\IE\container.dat""
+del /f ""C:\System Volume Information\tracking.log""
+del /f ""D:\System Volume Information\tracking.log""
+rmdir ""%userprofile%\documents\Call of Duty Modern Warfare"" /s /q
+rmdir ""%localappdata%\Battle.net"" /s /q
+rmdir ""%localappdata%\Blizzard Entertainment"" /s /q
+rmdir ""%appdata%\Battle.net"" /s /q
+rmdir ""%programdata%\Battle.net"" /s /q
+rmdir ""%programdata%\Blizzard Entertainment"" /s /q
+del /s /f ""%path%\Users\%username%\Documents\Call of Duty Black Ops Cold War\report""
+del /s /f ""%path%\Users\%username%\Documents\Call of Duty Black Ops Cold War""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_0.dcache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_1.dcache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_2.dcache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_3.dcache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\f_000001.dcache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\index.dcache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\index""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_0""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_1""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_2""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\data_3""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\f_000001""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\GPUCache\index""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\index.dcache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_0.dcache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_1.dcache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_2.dcache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_3.dcache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_0""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_1""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_2""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\BrowserCache\Cache\data_3""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\Cache""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\Logs""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\WidevineCdm""
+del /s /f ""%path%\Users\%username%\AppData\Local\Battle.net\CachedData""
+del /s /f ""%path%\Users\%username%\AppData\Local\Blizzard Entertainment""
+del /s /f ""%path%\Users\%username%\AppData\Roaming\Battle.net""
+del /s /f ""%path%\ProgramData\Battle.net""
+del /s /f ""%path%\ProgramData\Blizzard Entertainment""
+reg delete ""HKEY_CURRENT_USER\Software\Blizzard Entertainment"" /f
+reg delete ""HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Blizzard Entertainment"" /f
+reg delete ""HKEY_CURRENT_USER\Software\Blizzard Entertainment\Battle.net\Identity"" /f
+reg delete ""HKEY_CLASSES_ROOT\battlenet"" /f
+reg delete ""HKEY_CLASSES_ROOT\blizzard"" /f
+reg delete ""HKEY_CLASSES_ROOT\Blizzard.URI.Battlenet"" /f
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CLEANER.EXE-08C569E3.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\CLEANER.EXE-08C569E3.pf"",
+del ""C:\Windows\prefetch\RUNTIMEBROKER.EXE-4551A062.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\TOOL.EXE-7A8EFD97.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\ATTRIB.EXE-58A07CAF.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\FB0D848F74F70BB2EAA93746D24D9749"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\77EC63BDA74BD0D0E0426DC8F8008506"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\System Volume Information\tracking.log"",
+del ""C:\System Volume Information\tracking.log"",
+del ""C:\System Volume Information\IndexerVolumeGuid"",
+del ""C:\System Volume Information\tracking.log"",
+del ""C:\System Volume Information\tracking.log"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\FB0D848F74F70BB2EAA93746D24D9749"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\77EC63BDA74BD0D0E0426DC8F8008506"",
+del ""C:\Windows\INF\netrasa.PNF"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\FB0D848F74F70BB2EAA93746D24D9749"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"", 
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\Logs\CBS\CBS.log"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\INF\bthpan.PNF"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\INF\netavpna.PNF"",
+del ""C:\Windows\INF\netathr10x.PNF"",
+del ""C:\Windows\INF\netvwifimp.PNF"",
+del ""C:\Windows\INF\netsstpa.PNF"",
+del ""C:\Windows\INF\netavpna.PNF"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Users\%username%\AppData\Local\Microsoft\Feeds"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\ATTRIB.EXE-58A07CAF.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\INF\netrasa.PNF"",
+del ""C:\Windows\INF\netrasa.PNF"",
+del ""C:\Windows\INF\E2XW10~1.PNF"",
+del ""C:\Windows\INF\E2XW10~1.PNF"",
+del ""C:\Windows\prefetch\NETSH.EXE-8174DA63.pf"",
+del ""C:\Windows\prefetch\NETSH.EXE-8174DA63.pf"",
+del ""C:\Windows\INF\netvwifimp.PNF"",
+del ""C:\Windows\INF\e2xw10x64.PNF"",
+del ""C:\Windows\INF\e2xw10x64.PNF"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\WERMGR.EXE-F439C551.pf"",
+del ""C:\Windows\prefetch\WERMGR.EXE-F439C551.pf"",
+del ""C:\Windows\prefetch\WERMGR.EXE-F439C551.pf"",
+del ""C:\Windows.old\Users\All Users\Microsoft\Search\Data\Applications\Windows\edb0004C.jtx"",
+del ""C:\Windows.old\Users\All Users\Microsoft\Search\Data\Applications\Windows\edbtmp.jtx"",
+del ""C:\Windows.old\Users\All Users\Microsoft\Search\Data\Applications\Windows\edbtmp.jtx"",
+del ""C:\Windows\prefetch\NETSH.EXE-8174DA63.pf"",
+del ""C:\Windows\prefetch\NETSH.EXE-8174DA63.pf"",
+del ""C:\Windows.old\Users\All Users\Microsoft\Search\Data\Applications\Windows\edb0004D.jtx"",
+del ""C:\Windows\prefetch\NETSH.EXE-8174DA63.pf"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache"",
+del ""C:\Windows\prefetch\NETSH.EXE-8174DA63.pf"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache"",
+del ""C:\Users\%username%\AppData\LocalLow\Microsoft\CryptnetUrlCache"",
+del ""C:\ProgramData\Microsoft\Search\Data\Applications\Windows\edb.jcp"",
+del ""C:\Users\All Users\Microsoft\Search\Data\Applications\Windows\edb.jcp"",
+del ""C:\Windows.old\Users\All Users\Microsoft\Search\Data\Applications\Windows\edb.jcp"",
+del ""C:\Users\%username%\AppData\Local\NordVPN\logs\app-2019-12-09.nwl"",
+del ""C:\Users\All Users\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\PropMap\CiPT0000.000"",
+del ""C:\Windows.old\Users\All Users\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\PropMap\CiPT0000.000"",
+del ""C:\Windows\prefetch\IPCONFIG.EXE-10A15CF4.pf"",
+del ""C:\Windows\prefetch\IPCONFIG.EXE-10A15CF4.pf"",
+del ""C:\Users\%username%\AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\AppData\CacheStorage\CACHES~1.JFM"",
+del ""C:\Windows\prefetch\WERMGR.EXE-F439C551.pf"",
+del ""C:\Windows\prefetch\NETSH.EXE-8174DA63.pf"",
+del ""C:\Windows\prefetch\NETSH.EXE-8174DA63.pf"",
+del ""C:\Windows\prefetch\NETSH.EXE-8174DA63.pf"",
+del ""C:\Windows\prefetch\IPCONFIG.EXE-10A15CF4.pf"",
+del ""C:\Windows\prefetch\IPCONFIG.EXE-10A15CF4.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\IPCONFIG.EXE-10A15CF4.pf"",
+del ""C:\Windows\prefetch\ATTRIB.EXE-58A07CAF.pf"",
+del ""C:\Windows\prefetch\ATTRIB.EXE-58A07CAF.pf"",
+del ""C:\Windows\prefetch\ATTRIB.EXE-58A07CAF.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\INF\monitor.PNF"",
+del ""C:\Windows\INF\Zenonite.clr"",
+del ""C:\Windows\INF\monitor.PNF"",
+del ""C:\Windows\INF\netrasa.PNF"",
+del ""C:\Windows\INF\netrasa.PNF"",
+del ""C:\Windows\INF\netvwifimp.PNF"",
+del ""C:\Windows\INF\netrasa.PNF"",
+del ""C:\Windows\INF\netvwifimp.PNF"",
+del ""C:\Windows\INF\netvwifimp.PNF"",
+del ""C:\Windows\INF\msports.PNF"",
+del ""C:\Windows\INF\msports.PNF"",
+del ""C:\Windows\INF\wmiacpi.PNF"",
+del ""C:\Windows\INF\iaLPSS2i_GPIO2_SKL.PNF"",
+del ""C:\Windows\INF\ndisvirtualbus.PNF"",
+del ""C:\Windows\INF\intelpep.PNF"",
+del ""C:\Windows\INF\ndisvirtualbus.PNF"",
+del ""C:\Windows\INF\rdpbus.PNF"",
+del ""C:\Windows\INF\rdpbus.PNF"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\FINDSTR.EXE-5986D423.pf"",
+del ""C:\Windows\prefetch\WMIC.EXE-311B5CB4.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\INF\usbxhci.PNF"",
+del ""C:\Windows\INF\usbxhci.PNF"",
+del ""C:\Windows\prefetch\WMIPRVSE.EXE-39F97B2D.pf"",
+del ""C:\Windows\prefetch\WMIPRVSE.EXE-39F97B2D.pf"",
+del ""C:\Windows\System32\wbem\repository\MAPPING1.MAP"",
+del ""C:\Windows\System32\wbem\repository\WRITABLE.TST"",
+del ""C:\Windows\System32\wbem\repository\WRITABLE.TST"",
+del ""C:\Windows\prefetch\WMIPRVSE.EXE-39F97B2D.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\System32\wbem\repository\WRITABLE.TST"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\IPCONFIG.EXE-10A15CF4.pf"",
+del ""C:\Windows\prefetch\IPCONFIG.EXE-10A15CF4.pf"",
+del ""C:\Windows\prefetch\IPCONFIG.EXE-10A15CF4.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf"",
+del ""C:\Windows\prefetch\SVCHOST.EXE-117C4441.pf"",
+del ""C:\Windows\prefetch\SVCHOST.EXE-117C4441.pf"",
+del ""C:\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\V01.chk"",
+del ""C:\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\V01.chk"",
+del ""C:\Users\%username%\AppData\Local\NordVPN\logs\app-2019-12-09.nwl"",
+del ""C:\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\V01.chk"",
+del ""C:\Windows\prefetch\SVCHOST.EXE-FC689811.pf"",
+del ""C:\Windows\prefetch\SVCHOST.EXE-FC689811.pf"",
+del ""C:\Users\%username%\AppData\Local\NordVPN\logs\app-2019-12-09.nwl"",
+del ""C:\Users\%username%\AppData\Local\NordVPN\logs\app-2019-12-09.nwl"",
+del ""C:\Users\%username%\AppData\Local\NordVPN\logs\app-2019-12-09.nwl"",
+del ""C:\Windows\prefetch\SVCHOST.EXE-FC689811.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",  
+del ""C:\Users\%username%\AppData\Local\Microsoft\Feeds"",
+del ""C:\Windows\prefetch\RUNDLL32.EXE-AAE32C77.pf"",
+del ""C:\Windows\prefetch\RUNDLL32.EXE-AAE32C77.pf"",  
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\NETSH.EXE-8174DA63.pf"",
+del ""C:\Windows\prefetch\NETSH.EXE-8174DA63.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"",
+del ""C:\Users\%username%\AppData\Local\Microsoft\Feeds"",
+del ""C:\ProgramData\Microsoft\Windows\Zenonite.clr"",  
+del ""C:\Windows\prefetch\TASKKILL.EXE-0ECD41EC.pf"", 
+del ""C:\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\WEBCAC~1.JFM"",
+del ""C:\Users\%username%\AppData\Local\Microsoft\Windows\WebCache\WEBCAC~1.DAT"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\INF\netrasa.PNF"",
+del ""C:\Windows\INF\netrasa.PNF"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\CMD.EXE-6D6290C5.pf"",
+del ""C:\Windows\prefetch\FINDSTR.EXE-5986D423.pf"",
+del ""C:\Windows\prefetch\WMIC.EXE-311B5CB4.pf"",
+del ""C:\Windows\prefetch\reg.EXE-0AC99A87.pf"",
+del ""C:\Windows\prefetch\WMIPRVSE.EXE-E8B8DD29.pf"",
+del ""C:\Windows\prefetch\WMIPRVSE.EXE-E8B8DD29.pf"",
+del ""C:\Windows\prefetch\SVCHOST.EXE-C5837514.pf"",
+del ""C:\Windows\prefetch\WMIPRVSE.EXE-E8B8DD29.pf"",
+del ""C:\Windows\prefetch\WMIPRVSE.EXE-E8B8DD29.pf"",
+del C:\Users\%username%\AppData\Local\FortniteGame\Saved\LMS\Manifest.sav*.*
+del C:\Users\Public\Libraries\collection.dat*.*
+del C:\MSOCache\{71230000-00E2-0000-1000-00000000}\Setup.dat*.*
+del C:\Users\%username%\AppData\Local\Microsoft\Feeds:KnownSources*.*
+del C:\Recovery\ntuser.sys*.*
+del C:\Users\%username%\AppData\Local\AC\INetCookies\ESE\container.dat*.*
+del C:\Users\%username%\AppData\Local\Packages\Settings\settings.dat*.*
+del C:\Users\%username%\AppData\Local\FortniteGame\Saved\Config\WindowsClient\GameUserSettings.ini*.*
+del C:\Program Files\Epic Games\Fortnite\FortniteGame\PersistentDownloadDir\CMS\CacheAccess.json*.*
+del C:\Users\%username%\AppData\Local\Microsoft\OneDrive\logs\Common\DeviceHealthSummaryConfiguration.ini*.*
+del C:\Users\%username%\AppData\Local\FortniteGame\Saved\Logs\FortniteGame.log*.*
+del C:\ProgramData\Microsoft\Windows\DeviceMetadataCache\dmrc.idx*.*
+del C:\Users\%username%\AppData\Local\Microsoft\Windows\SettingSync\metastore\edb.log*.*
+del C:\Users\%username%\AppData\Local\Microsoft\Windows\SettingSync\remotemetastore\v1\edb.log*.*
+del C:\Users\%username%\ntuser.ini*.*
+del C:\Users\%username%\AppData\Local\Microsoft\Windows\INetCache\IE\container.dat*.*
+del C:\System Volume Information\tracking.log*.*
+del C:\System Volume Information\WPSettings.dat*.*
+del C:\Users\%username%\AppData\Local\FortniteGame\Saved\LMS\Manifest.sav*.*
+del C:\Users\Public\Libraries\collection.dat*.*
+del C:\MSOCache\{71230000-00E2-0000-1000-00000000}\Setup.dat*.*
+del C:\Users\%username%\AppData\Local\Microsoft\Feeds:KnownSources*.*
+del C:\Recovery\ntuser.sys*.*
+del C:\Users\%username%\AppData\Local\AC\INetCookies\ESE\container.dat*.*
+del C:\Users\%username%\AppData\Local\Packages\Settings\settings.dat*.*
+del C:\Users\%username%\AppData\Local\FortniteGame\Saved\Config\WindowsClient\GameUserSettings.ini*.*
+del C:\Program Files\Epic Games\Fortnite\FortniteGame\PersistentDownloadDir\CMS\CacheAccess.json*.*
+del C:\Users\%username%\AppData\Local\Microsoft\OneDrive\logs\Common\DeviceHealthSummaryConfiguration.ini*.*
+del C:\Users\%username%\AppData\Local\FortniteGame\Saved\Logs\FortniteGame.log*.*
+del C:\ProgramData\Microsoft\Windows\DeviceMetadataCache\dmrc.idx*.*
+del C:\Users\%username%\AppData\Local\Microsoft\Windows\SettingSync\metastore\edb.log*.*
+del C:\Users\%username%\AppData\Local\Microsoft\Windows\SettingSync\remotemetastore\v1\edb.log*.*
+del C:\Users\%username%\ntuser.ini*.*
+del C:\Users\%username%\AppData\Local\Microsoft\Windows\INetCache\IE\container.dat*.*
+del C:\System Volume Information\tracking.log*.*
+del C:\System Volume Information\WPSettings.dat*.*
 
 pause
